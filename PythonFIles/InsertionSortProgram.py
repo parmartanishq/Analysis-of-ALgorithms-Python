@@ -23,5 +23,7 @@ def userinput():
     insertionSort(arr)
 
 print("PROGRAM TO PERFORM INSERTION SORT")
-userinput()
+
+if __name__ == "__main__":  
+    userinput()
 

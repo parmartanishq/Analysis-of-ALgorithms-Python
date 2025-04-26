@@ -20,5 +20,6 @@ def userinput():
     print("UnSorted Array: ", arr)
     selectionSort(arr)
 
-print("PROGRAM TO PERFORM SELECTION SORT")
-userinput()
+if __name__ == "__main__":  
+    print("PROGRAM TO PERFORM SELECTION SORT")
+    userinput()

@@ -37,4 +37,5 @@ def userinput():
     fracknapsack(cap,items,n)
         
     
-userinput()
+if __name__ == "__main__":  
+    userinput()

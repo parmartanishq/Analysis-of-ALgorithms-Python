@@ -37,4 +37,5 @@ def userinput():
     quicksort(arr,0, n-1)
     print("Sorted Array", arr)
 
-userinput()
+if __name__ == "__main__":  
+    userinput()
